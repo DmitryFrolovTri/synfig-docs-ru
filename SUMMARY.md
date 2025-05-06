@@ -45,6 +45,10 @@
 * [Экспорт Gif-анимации](eksport/eksport-gif-animacii.md)
 * [Экспорт web-анимации (Lottie)](eksport/eksport-web-animacii-lottie.md)
 
+***
+
+* [Экспорт через командную строку](eksport-cherez-komandnuyu-stroku.md)
+
 ## Перечень слоёв
 
 * [Размывание](perechen-sloyov/razmyvanie.md)
