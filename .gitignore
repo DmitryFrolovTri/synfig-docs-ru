@@ -1,0 +1,5 @@
+scripts/*
+.errors.txt
+googleusercontent.com/
+.external_assets_cache/
+todo.md
