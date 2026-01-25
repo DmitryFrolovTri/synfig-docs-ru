@@ -1,0 +1,29 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+# Спиральный градиент
+
+Спиральный градиент в Synfig Studio предназначен для создания градиентной заливки, следующей по спиральной траектории. Градиент может вращаться по часовой стрелке или против часовой стрелки, а его параметры, такие как центр, радиус и начальный угол, задаются пользователем.
+
+### **Создание слоя "Спиральный градиент"**
+
+Существует несколько способов создать "Спиральный градиент":
+
+* С помощью [инструмента создания градиентов](../osnovnye-principy/instrumenty#instrument-gradient), выбрав на панели настройки инструмента "спиральный градиент".
+
+<figure><img src={useBaseUrl('/img/gitbook/2024-05-20_13-35.png')} alt="" /><figcaption></figcaption></figure>
+
+На панели слоёв с помощью кнопки "создать слой" вызовите контекстное меню, выберите "градиенты" - "Спиральный градиент";
+
+<figure><img src={useBaseUrl('/img/gitbook/spiral.png.PNG')} alt="" width="375" /><figcaption></figcaption></figure>
+
+### Параметры слоя “Спиральный градиент” <a href="#docs-internal-guid-ca95d97f-7fff-bd7e-c9c1-be5460e56a92" id="docs-internal-guid-ca95d97f-7fff-bd7e-c9c1-be5460e56a92"></a>
+
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_0yZ1YyARITCvtIGYdm7hlY5XT0zR0oWWMLhq3amQkcAlrWsMLd8zbA4Ess3-2lzN3wHe51Uo3y0DesOW80gHNE8uOchJBOUzMappTqPUqJo0tfSYiOpk_wVhojfxNV9Bn47ZW2EkzylcZ8QHgrC77LY_8d42e329a7f7.png')} alt="Type_real_icon.png" data-size="line" /> Глубина Z           | 0,000000                                                                                                                                                                                                              | реальный     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_0yZ1YyARITCvtIGYdm7hlY5XT0zR0oWWMLhq3amQkcAlrWsMLd8zbA4Ess3-2lzN3wHe51Uo3y0DesOW80gHNE8uOchJBOUzMappTqPUqJo0tfSYiOpk_wVhojfxNV9Bn47ZW2EkzylcZ8QHgrC77LY_8d42e329a7f7.png')} alt="Type_real_icon.png" data-size="line" /> Непрозрачность      | 1,000000                                                                                                                                                                                                              | реальный     |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_7l6pE2zGGMtPa_G4HDWdHbj7CaCtBpPXa2HgABBkOv5vg2zKtV27RR9u0pPvlhtxbXlv_S3UunNIPDvfWibUbX1ZoA1H4WmGhS-6z-QLEduNm1GXGfCOV3Jg8ibhm7Hw85bUe48T0PzzaDL2lgGhg40_6487be6c3541.png')} alt="Type_integer_icon.png" data-size="line" /> Метод смешивания | Совмещение                                                                                                                                                                                                            | целое число  |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_Boh6GESShOA6lLqe1EzvssW00oneHU2vLywN3EXBqnfOWyHigHuQiVC_9lszF6g_CRCayHK3RSGe1_XeLzpoVyC5eHc8kSQ8-BjHGmIzPACmuxqc7rBcBbnm6SlbKYeW2VFO_LDn-M08-7LxpCGV_M_c96412e30a86.png')} alt="Type_gradient_icon.png" data-size="line" /> Градиент        | ![p\_gradient.png](/assets/lh7-us.googleusercontent.com_5O-cYdhTlPqm7AOFra3xPfxz5XNoJ3hjmS-RMEAPdY1sC1ru-vy2OJFYpIcShTi4TGyKt_4ywDNuqmGN0MRR0D1dfWOXYr1zlP1YFBr4mdkLZtG-24q2Bz7CQTmhg5X4q2A6nXI0kN3VNDg4PMbPDNc_30e94e57390e.png)      | градиент     |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_5jjKw7L-wYkoOw6xQqvhbefvtItuQpG39RDPnl23QwkWVnJKsnMFcrSDQ4Tp4b3tZRhKgwyv8GRrhff8wO5W641bsSIc8qnFYO2kA3tS9HdkG553UiyDXXms2fyyZdcKA4Vyhzn0eVnytL2Il6LOpAo_e5c3171729eb.png')} alt="Type_vector_icon.png" data-size="line" /> Центр             | 0,500000px, 0,000000px                                                                                                                                                                                                | векторный    |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_0yZ1YyARITCvtIGYdm7hlY5XT0zR0oWWMLhq3amQkcAlrWsMLd8zbA4Ess3-2lzN3wHe51Uo3y0DesOW80gHNE8uOchJBOUzMappTqPUqJo0tfSYiOpk_wVhojfxNV9Bn47ZW2EkzylcZ8QHgrC77LY_8d42e329a7f7.png')} alt="Type_real_icon.png" data-size="line" /> Радиус              | 0,500000px                                                                                                                                                                                                            | реальный     |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_B5HoDXm5wt13Kv0bWusT_LTlPp1LuX5C_UkesbwJA6U5xPPB4AFmEaIgBmbpx1VPqEFwv23foetM6ZTk61AUokh8zOGGXYc0pdv7vim3_DOOWu8ZDwO6LwQl0RJ8DfZODd-EYHNp9KJfkN--vaBYGo8_5c3a31f94086.png')} alt="Type_angle_icon.png" data-size="line" /> Угол               | 0.00                                                                                                                                                                                                                  | угол наклона |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_-GoOKmFDpNJ7drtALyFj0ktbJTizOPcKjskiywa_EBi95THgCMhID9yXc3_sHBDZG6d6htAQf-KuN4Ujd_1Cx9DSqSD5X-v-ftM5GpDUmsgEBubI7CZtHF-KhMJcxEQBqqHsyRNlrl_iEQuHsgjBxvo_548b7809ffc7.png')} alt="Type_bool_icon.png" data-size="line" /> По часовой стрелке  | ![p\_checkbox\_off.png](/assets/lh7-us.googleusercontent.com_3XnlnLjGLfZFK_bKVun5FQd1ghWtR8t-0oprUZBgzdmiCeRU6pjOBpUU0F2TkA-XWePu2Flj7kaciNCwKyjTuGwKctocVSSoS_IrGCiGWsTu9m9wvLkwyZrxFFkNLCQhrZSi-SJle-6C8MKcOD1FGvc_c3e188c9583d.png) | bool         |

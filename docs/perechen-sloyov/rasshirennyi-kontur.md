@@ -1,0 +1,86 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+# Расширенный контур
+
+<div align="left">
+
+<figure><img src={useBaseUrl('/img/gitbook/layer_geometry_advanced_outline_icon (1).png')} alt="" /><figcaption></figcaption></figure>
+
+</div>
+
+**Расширенный контур** – это усовершенствованный слой «контур» с дополнительными параметрами, обеспечивающий более гибкое и точное управление контуром фигуры.
+
+### **Создание слоя «Расширенный контур»**
+
+Существует несколько способов создать "расширенный контур":
+
+* На панели слоёв с помощью кнопки "создать слой" вызовите контекстное меню, выберите "геометрия" - "Расширенный контур";
+
+<figure><img src={useBaseUrl('/img/gitbook/2024-05-16_15-48.png')} alt="" /><figcaption></figcaption></figure>
+
+* С помощью инструментов, которые создают редактируемые фигуры (в том числе инструмент "кривые"). Для этого выберите нужный инструмент и в параметрах этого инструмента кликните на иконку с расширенным контуром. После создания фигуры, создастся и "расширенный контур".
+
+<figure><img src={useBaseUrl('/img/gitbook/2024-05-16_15-42.png')} alt="" /><figcaption></figcaption></figure>
+
+### **Отличия от слоя «Контур»**
+
+В обычном слое «Контур» каждая упрвляющая шириной точка связан с вершиной, определяющей форму контура в конкретном месте.&#x20;
+
+В расширенном контуре управляющие шириной точки свободно перемещаются по кривой и определяют там, куда эти точки перенесли.
+
+### Параметры, отличные от стандартного контура:
+
+1\) Тип кончика в начале/конце - определяет тип концов у незамкнутой кривой:
+
+| Тип                               | Отображение                                                                        |
+| --------------------------------- | ---------------------------------------------------------------------------------- |
+| Закругленная остановка            | <p></p><p><img src={useBaseUrl('/img/gitbook/1.png.PNG')} alt="" data-size="original" /></p> |
+| Квадратная остановка              | <p></p><p><img src={useBaseUrl('/img/gitbook/2.png.PNG')} alt="" data-size="original" /></p> |
+| Заострённая остановка             | <p></p><p><img src={useBaseUrl('/img/gitbook/3.png.PNG')} alt="" data-size="original" /></p> |
+| Плоская остановка                 | <p></p><p><img src={useBaseUrl('/img/gitbook/4.png.PNG')} alt="" data-size="original" /></p> |
+| Внутренняя закруглённая остановка | <p></p><p><img src={useBaseUrl('/img/gitbook/5.png.PNG')} alt="" data-size="original" /></p> |
+| Незаострённая остановка           | <p></p><p><img src={useBaseUrl('/img/gitbook/6.png.PNG')} alt="" data-size="original" /></p> |
+
+2\) Тип пиков - определяет отображение пиков.
+
+
+
+| Тип        | Отображение                                                                                   |
+| ---------- | --------------------------------------------------------------------------------------------- |
+| Резкий     | <p></p><p><img src={useBaseUrl('/img/gitbook/1 (2) (1).png')} alt="" data-size="original" /></p><p></p> |
+| Скругление | <p></p><p><img src={useBaseUrl('/img/gitbook/2 (1) (1).png')} alt="" data-size="original" /></p>        |
+| Фаска      | <p></p><p><img src={useBaseUrl('/img/gitbook/3 (1) (1).png')} alt="" data-size="original" /></p>        |
+
+3\) Плавность - определяет плавность перехода между точками ширины, где 0 - это линейная, а 1 - плавная.
+
+<figure><img src={useBaseUrl('/img/gitbook/Smoothness (1).gif')} alt="" /><figcaption></figcaption></figure>
+
+4\) Пунктирная линия - когда функция включена, превращает сплошной контур в пунктирный.
+
+<figure><img src={useBaseUrl('/img/gitbook/synfig-logo-punktir.gif')} alt="" /><figcaption></figcaption></figure>
+
+Параметры **точки ширины** в "Расширенном контуре":
+
+<figure><img src={useBaseUrl('/img/gitbook/2024-05-17_12-01.png')} alt="" /><figcaption></figcaption></figure>
+
+* Положение - определяет позицию точки на кривой;
+* Ширина;
+* Тип стороны до/после - определяет тип интерполяции (отображения) по ширине точки;
+
+:::info
+В таблице ниже представлен пример отображения типов интерполяции для точки ширины. На примере интерполяция меняется только у одной точки (слева).
+:::
+
+| Тип интерполяции                  | Отображение                                                                        |
+| --------------------------------- | ---------------------------------------------------------------------------------- |
+| Интерполяция                      | <img src={useBaseUrl('/img/gitbook/1 (2).png')} alt="" data-size="original" />               |
+| Закругленная остановка            | <p></p><p><img src={useBaseUrl('/img/gitbook/2 (2).png')} alt="" data-size="original" /></p> |
+| Квадратная остановка              | <p></p><p><img src={useBaseUrl('/img/gitbook/3 (2).png')} alt="" data-size="original" /></p> |
+| Заострённая остановка             | <p></p><p><img src={useBaseUrl('/img/gitbook/4 (2).png')} alt="" data-size="original" /></p> |
+| Плоская остановка                 | <p></p><p><img src={useBaseUrl('/img/gitbook/5 (2).png')} alt="" data-size="original" /></p> |
+| Внутренняя закруглённая остановка | <p></p><p><img src={useBaseUrl('/img/gitbook/6 (1).png')} alt="" data-size="original" /></p> |
+| Незаострённая остановка           | <p></p><p><img src={useBaseUrl('/img/gitbook/7.png')} alt="" data-size="original" /></p>     |
+
+
+
+* Нижняя/верхняя граница - определяет позицию в начале кривой.

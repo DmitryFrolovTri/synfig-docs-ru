@@ -14,20 +14,18 @@ Synfig Studio - это бесплатная программа для 2D-ани�
 
 1\. Раскрашивание ключевых кадров анимации с сопутствующим созданием промежуточных кадров (векторный твининг).
 
-<figure><img src=".gitbook/assets/colortext.gif" alt=""><figcaption><p>Векторизация изображений и их раскрашивание</p></figcaption></figure>
+<figure><img src="static/img/gitbook/colortext.gif" alt=""><figcaption><p>Векторизация изображений и их раскрашивание</p></figcaption></figure>
 
 2\. Выполнение совмещения (композитинга) слоёв анимации с сопутствующим добавлением спецэффектов.
 
-<figure><img src=".gitbook/assets/composetext.gif" alt=""><figcaption><p>Композитинг анимации: добавление спец. эффектов, фона, камеры</p></figcaption></figure>
+<figure><img src="static/img/gitbook/composetext.gif" alt=""><figcaption><p>Композитинг анимации: добавление спец. эффектов, фона, камеры</p></figcaption></figure>
 
 3\. Создание скелетной анимации с использованием растровых или векторных элементов (компьютерная перекладка).
 
-<figure><img src=".gitbook/assets/skeleton.gif" alt=""><figcaption><p>Скелетная анимация в Synfig</p></figcaption></figure>
+<figure><img src="static/img/gitbook/skeleton.gif" alt=""><figcaption><p>Скелетная анимация в Synfig</p></figcaption></figure>
 
 4\. Моушен-дизайн.
 
-<figure><img src=".gitbook/assets/test3.gif" alt=""><figcaption><p>Пример моушн-дизайна в Synfig Studio</p></figcaption></figure>
+<figure><img src="static/img/gitbook/test3.gif" alt=""><figcaption><p>Пример моушн-дизайна в Synfig Studio</p></figcaption></figure>
 
-{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fe9XVEXa2X3Uhr8yAecH3%2Fuploads%2F3yMtc7VHr6vCnJtTMTo2%2F0%20to%20100%20Animations%20Progress%20in%20Synfig%20Studio.mp4?alt=media&token=62e1b4e0-b910-4028-9630-bd0c00cb8a7f" %}
-Примеры моушн-дизайна в Synfig Studio
-{% endembed %}
+[Примеры моушн-дизайна в Synfig Studio](static/img/gitbook/0%20to%20100%20Animations%20Progress%20in%20Synfig%20Studio.mp4)

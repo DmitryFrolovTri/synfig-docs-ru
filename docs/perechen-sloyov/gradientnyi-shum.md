@@ -1,0 +1,40 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+# Градиентный шум
+
+Градиентный шум представляет собой процедурную текстуру, используемую для создания градиентов с контролируемым шумом. Как и все градиенты - является бесконечным слоем.
+
+### **Создание слоя "**&#x413;радиентный шу&#x43C;**"**
+
+* На панели слоёв с помощью кнопки "создать слой" вызовите контекстное меню, выберите "градиенты" - "Градиентный шум"
+
+<figure><img src={useBaseUrl('/img/gitbook/noise.png.PNG')} alt="" /><figcaption></figcaption></figure>
+
+### Параметры слоя "Градиентный шум"
+
+
+
+|                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                  |             |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_0yZ1YyARITCvtIGYdm7hlY5XT0zR0oWWMLhq3amQkcAlrWsMLd8zbA4Ess3-2lzN3wHe51Uo3y0DesOW80gHNE8uOchJBOUzMappTqPUqJo0tfSYiOpk_wVhojfxNV9Bn47ZW2EkzylcZ8QHgrC77LY_8d42e329a7f7.png')} alt="Type_real_icon.png" data-size="line" />Глубина Z             | 0.000000                                                                                                                                                                                                         | реальный    |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_0yZ1YyARITCvtIGYdm7hlY5XT0zR0oWWMLhq3amQkcAlrWsMLd8zbA4Ess3-2lzN3wHe51Uo3y0DesOW80gHNE8uOchJBOUzMappTqPUqJo0tfSYiOpk_wVhojfxNV9Bn47ZW2EkzylcZ8QHgrC77LY_8d42e329a7f7.png')} alt="Type_real_icon.png" data-size="line" />Непрозрачность        | 1.000000                                                                                                                                                                                                         | реальный    |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_7l6pE2zGGMtPa_G4HDWdHbj7CaCtBpPXa2HgABBkOv5vg2zKtV27RR9u0pPvlhtxbXlv_S3UunNIPDvfWibUbX1ZoA1H4WmGhS-6z-QLEduNm1GXGfCOV3Jg8ibhm7Hw85bUe48T0PzzaDL2lgGhg40_6487be6c3541.png')} alt="Type_integer_icon.png" data-size="line" />Метод смешивания   | Совмещение                                                                                                                                                                                                       | целое число |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_Boh6GESShOA6lLqe1EzvssW00oneHU2vLywN3EXBqnfOWyHigHuQiVC_9lszF6g_CRCayHK3RSGe1_XeLzpoVyC5eHc8kSQ8-BjHGmIzPACmuxqc7rBcBbnm6SlbKYeW2VFO_LDn-M08-7LxpCGV_M_c96412e30a86.png')} alt="Type_gradient_icon.png" data-size="line" />Градиент          | ![p\_gradient.png](/assets/lh7-us.googleusercontent.com_5O-cYdhTlPqm7AOFra3xPfxz5XNoJ3hjmS-RMEAPdY1sC1ru-vy2OJFYpIcShTi4TGyKt_4ywDNuqmGN0MRR0D1dfWOXYr1zlP1YFBr4mdkLZtG-24q2Bz7CQTmhg5X4q2A6nXI0kN3VNDg4PMbPDNc_30e94e57390e.png) | градиент    |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_7l6pE2zGGMtPa_G4HDWdHbj7CaCtBpPXa2HgABBkOv5vg2zKtV27RR9u0pPvlhtxbXlv_S3UunNIPDvfWibUbX1ZoA1H4WmGhS-6z-QLEduNm1GXGfCOV3Jg8ibhm7Hw85bUe48T0PzzaDL2lgGhg40_6487be6c3541.png')} alt="Type_integer_icon.png" data-size="line" />Начальное значение | 1716182861                                                                                                                                                                                                       | целое число |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_5jjKw7L-wYkoOw6xQqvhbefvtItuQpG39RDPnl23QwkWVnJKsnMFcrSDQ4Tp4b3tZRhKgwyv8GRrhff8wO5W641bsSIc8qnFYO2kA3tS9HdkG553UiyDXXms2fyyZdcKA4Vyhzn0eVnytL2Il6LOpAo_e5c3171729eb.png')} alt="Type_vector_icon.png" data-size="line" />Размер              | 60,000000px, 60,000000px,                                                                                                                                                                                        | вектор      |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_7l6pE2zGGMtPa_G4HDWdHbj7CaCtBpPXa2HgABBkOv5vg2zKtV27RR9u0pPvlhtxbXlv_S3UunNIPDvfWibUbX1ZoA1H4WmGhS-6z-QLEduNm1GXGfCOV3Jg8ibhm7Hw85bUe48T0PzzaDL2lgGhg40_6487be6c3541.png')} alt="Type_integer_icon.png" data-size="line" />Интерполяция       | Косинус                                                                                                                                                                                                          | целое число |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_7l6pE2zGGMtPa_G4HDWdHbj7CaCtBpPXa2HgABBkOv5vg2zKtV27RR9u0pPvlhtxbXlv_S3UunNIPDvfWibUbX1ZoA1H4WmGhS-6z-QLEduNm1GXGfCOV3Jg8ibhm7Hw85bUe48T0PzzaDL2lgGhg40_6487be6c3541.png')} alt="Type_integer_icon.png" data-size="line" />Детализация        | 4                                                                                                                                                                                                                | целое число |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_0yZ1YyARITCvtIGYdm7hlY5XT0zR0oWWMLhq3amQkcAlrWsMLd8zbA4Ess3-2lzN3wHe51Uo3y0DesOW80gHNE8uOchJBOUzMappTqPUqJo0tfSYiOpk_wVhojfxNV9Bn47ZW2EkzylcZ8QHgrC77LY_8d42e329a7f7.png')} alt="Type_real_icon.png" data-size="line" />Скорость анимации     | 0,000000                                                                                                                                                                                                         | реальный    |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_-GoOKmFDpNJ7drtALyFj0ktbJTizOPcKjskiywa_EBi95THgCMhID9yXc3_sHBDZG6d6htAQf-KuN4Ujd_1Cx9DSqSD5X-v-ftM5GpDUmsgEBubI7CZtHF-KhMJcxEQBqqHsyRNlrl_iEQuHsgjBxvo_548b7809ffc7.png')} alt="Type_bool_icon.png" data-size="line" />Турбулентность        |                                                                                                                                                                                                                  | bool        |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_-GoOKmFDpNJ7drtALyFj0ktbJTizOPcKjskiywa_EBi95THgCMhID9yXc3_sHBDZG6d6htAQf-KuN4Ujd_1Cx9DSqSD5X-v-ftM5GpDUmsgEBubI7CZtHF-KhMJcxEQBqqHsyRNlrl_iEQuHsgjBxvo_548b7809ffc7.png')} alt="Type_bool_icon.png" data-size="line" />С альфа-каналом       |                                                                                                                                                                                                                  | bool        |
+| <img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_-GoOKmFDpNJ7drtALyFj0ktbJTizOPcKjskiywa_EBi95THgCMhID9yXc3_sHBDZG6d6htAQf-KuN4Ujd_1Cx9DSqSD5X-v-ftM5GpDUmsgEBubI7CZtHF-KhMJcxEQBqqHsyRNlrl_iEQuHsgjBxvo_548b7809ffc7.png')} alt="Type_bool_icon.png" data-size="line" />Супер сглаживание     |                                                                                                                                                                                                                  | bool        |
+
+
+
+градиент Начальное значение 1299736373 целое число Размер 60.000000px, 60.000000px целое число Интерполяция Косинус целое число Детализация 4 целое число Скорость анимации 0.000000 реальный Турбулентность
+
+bool С альфа-каналом
+
+bool Супер сглаживание
+
+bool

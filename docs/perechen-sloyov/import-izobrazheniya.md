@@ -1,0 +1,27 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+# Импорт изображения
+
+<img src={useBaseUrl('/img/gitbook/layer_other_importimage_icon (1).png')} alt="" data-size="original" />
+
+После импорта ваши изображения начинают отображаться на панеле слоев с помощью данного слоя. Он автоматически помещается  в папку-переключатель.
+
+<figure><img src={useBaseUrl('/img/gitbook/image (1) (1).png')} alt="" /><figcaption><p>Импортируемый файл внутри папки</p></figcaption></figure>
+
+**Параметры слоя Импорт изображенияследующие:**
+
+| Имя                                                                                                                                                                                               | Значение               | Тип     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ------- |
+| [![Type real icon.png](/assets/lh7-us.googleusercontent.com_kaCdvbKFkQXhMMhiRHRHGYgRk7FEOimg5Rs3N9vllTAm30Eb_1blgiYdo7cgJkmKX5s80Z8B6ppuQw7ibcUhgnXCwOwxwKYcls-yMU0k3hSkWv7tNMTPr1CNlsu6a3TUFvuapN28Rdsh27q6l0JbN9A_b26402ba0053.png)](/assets/lh7-us.googleusercontent.com_1grDqBfDBYDOf3ZASW4s1C5N6q_J9KR-2jT-0sftfn9FP3iyJMKYp76UWbVCWOwRdjaOynkAw5IcfmDzlym4SPCIjSgEhwkeZlPesdQwxS_us0o24NNBzUKZCNofriqtk80TMTxSQNIRdIQyPSTmlYk_cc2d38dbc3b7.png) Глубина Z                    | 0.000000               | real    |
+| [![Type real icon.png](/assets/lh7-us.googleusercontent.com_kaCdvbKFkQXhMMhiRHRHGYgRk7FEOimg5Rs3N9vllTAm30Eb_1blgiYdo7cgJkmKX5s80Z8B6ppuQw7ibcUhgnXCwOwxwKYcls-yMU0k3hSkWv7tNMTPr1CNlsu6a3TUFvuapN28Rdsh27q6l0JbN9A_b26402ba0053.png)](/assets/lh7-us.googleusercontent.com_1grDqBfDBYDOf3ZASW4s1C5N6q_J9KR-2jT-0sftfn9FP3iyJMKYp76UWbVCWOwRdjaOynkAw5IcfmDzlym4SPCIjSgEhwkeZlPesdQwxS_us0o24NNBzUKZCNofriqtk80TMTxSQNIRdIQyPSTmlYk_cc2d38dbc3b7.png) Непрозрачность               | 1.000000               | real    |
+| [![Type integer icon.png](/assets/lh7-us.googleusercontent.com_LtL6kACc5H3yi72E2ivT1ip3NeNUiHEnpo55oPOAA2KZp7yDkjLfhEyE6QNFnmqYRYXWb-SIfwTT-RuWUgwMjdBOU5t1O7w_5nJkJgriXXsSen5ImQF4rReWxLXYfFFZRYNOKyOifhdt8yNUk4dt1sw_54f132445cca.png)](/assets/lh7-us.googleusercontent.com_2iTUGrJsa6CFF2Tk5-wI-jGxZ6MGpJ1sOK1jHmLCHXYjHHqnUEHnmCnIikeLBPNMXYv9E9Trr5P_dBhVkwfng-zqjApzeEq3RD8kgJyvzw13nhcGIIwyBrlGyHTnk0Q45X6MEjtNOuDtjU5aeJbQ628_3ccf0c146f47.png) Метод смешивания | Composite              | integer |
+| [![Type vector icon.png](/assets/lh7-us.googleusercontent.com_Em6eLPB4gHkxPHezRfog4Okr9lNfq2zh3Z7rUXtONwP3iJU7qcLNTfJBu58TlpIS3xNUCYxj5U6D7ZXWHRycBPsZh0Gj0RjxgL7L76BxihNX44pIfbDfVpjd9KXQ59FSs5eLT6G-VDNT_fmrZGDAYHk_6bcf1700b38e.png)](/assets/lh7-us.googleusercontent.com_OViCi9s7s1GZZji4l9iFRRn3usvltO8DjDlihLP4ansNNE1DgQQbW0isTFrYPdFGndjaob3uGiUBVH2nEJb9JdjfB_DQQa1uTS3XA-XcX4uCCFYjdYdb5NWBx0bIX_hgYLxWywyIeG-GiZE7itOXvL4_ed0fa91ae5fc.png)Левый верхний угол    | -0.500000pt,0.500000pt | vector  |
+| [![Type vector icon.png](/assets/lh7-us.googleusercontent.com_Em6eLPB4gHkxPHezRfog4Okr9lNfq2zh3Z7rUXtONwP3iJU7qcLNTfJBu58TlpIS3xNUCYxj5U6D7ZXWHRycBPsZh0Gj0RjxgL7L76BxihNX44pIfbDfVpjd9KXQ59FSs5eLT6G-VDNT_fmrZGDAYHk_6bcf1700b38e.png)](/assets/lh7-us.googleusercontent.com_OViCi9s7s1GZZji4l9iFRRn3usvltO8DjDlihLP4ansNNE1DgQQbW0isTFrYPdFGndjaob3uGiUBVH2nEJb9JdjfB_DQQa1uTS3XA-XcX4uCCFYjdYdb5NWBx0bIX_hgYLxWywyIeG-GiZE7itOXvL4_ed0fa91ae5fc.png)Правый нижний угол    | 0.500000pt,-0.500000pt | vector  |
+| [![Type integer icon.png](/assets/lh7-us.googleusercontent.com_LtL6kACc5H3yi72E2ivT1ip3NeNUiHEnpo55oPOAA2KZp7yDkjLfhEyE6QNFnmqYRYXWb-SIfwTT-RuWUgwMjdBOU5t1O7w_5nJkJgriXXsSen5ImQF4rReWxLXYfFFZRYNOKyOifhdt8yNUk4dt1sw_54f132445cca.png)](/assets/lh7-us.googleusercontent.com_2iTUGrJsa6CFF2Tk5-wI-jGxZ6MGpJ1sOK1jHmLCHXYjHHqnUEHnmCnIikeLBPNMXYv9E9Trr5P_dBhVkwfng-zqjApzeEq3RD8kgJyvzw13nhcGIIwyBrlGyHTnk0Q45X6MEjtNOuDtjU5aeJbQ628_3ccf0c146f47.png) Интерполяция     | Linear(Static)         | integer |
+| [![Type real icon.png](/assets/lh7-us.googleusercontent.com_kaCdvbKFkQXhMMhiRHRHGYgRk7FEOimg5Rs3N9vllTAm30Eb_1blgiYdo7cgJkmKX5s80Z8B6ppuQw7ibcUhgnXCwOwxwKYcls-yMU0k3hSkWv7tNMTPr1CNlsu6a3TUFvuapN28Rdsh27q6l0JbN9A_b26402ba0053.png)](/assets/lh7-us.googleusercontent.com_1grDqBfDBYDOf3ZASW4s1C5N6q_J9KR-2jT-0sftfn9FP3iyJMKYp76UWbVCWOwRdjaOynkAw5IcfmDzlym4SPCIjSgEhwkeZlPesdQwxS_us0o24NNBzUKZCNofriqtk80TMTxSQNIRdIQyPSTmlYk_cc2d38dbc3b7.png)Камма коррекция               | 1.000000               | real    |
+| [![Type string icon.png](/assets/wiki.synfig.org_images_thumb_6_63_Type_string_icon.png_16px-Type_string_icon_fa2370f8c9d0.png)](/assets/wiki.synfig.org_File_Type_string_icon_c194f522cb9e.png) Имя файла            |                        | string  |
+| [![Type time icon.png](/assets/wiki.synfig.org_images_thumb_8_8a_Type_time_icon.png_16px-Type_time_icon_260fcda80cf1.png)](/assets/lh7-us.googleusercontent.com_vlFXTPFQD8MQmwZDTz6Mn2Pu52PiUKOMN6XEdKEY4gLDFkUQOILXS_BGHDz9DM49EtnkUGJmpjFXF6azq7iECPDwC4aGguBTti5oKbvsLwXaW0GlC1CqDjux99OXcK9-F81hF9v5iJYO9GXihzJY0bw_208ef28931fb.png)Смещение во времени           | 0f                     | time    |
+
+**Параметр "Смещение во времени"**
+
+Смещение времени, используемое для импорта изображений и их последовательности.   Переключение кадра задердживается до установленного кадра в столбце "значение".

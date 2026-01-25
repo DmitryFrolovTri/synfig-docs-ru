@@ -1,0 +1,17 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+# Окружность
+
+<div align="left">
+
+<figure><img src={useBaseUrl('/img/gitbook/layer_geometry_circle_icon (1).png')} alt="" /><figcaption></figcaption></figure>
+
+</div>
+
+Окружность - это круглый объект, ограниченный замкнутой линией. В отличие от области, у окружности существует только две управляющие вершины: радиус и центр.
+
+<figure><img src={useBaseUrl('/img/gitbook/2024-05-17_13-29.png')} alt="" /><figcaption></figcaption></figure>
+
+### Параметры слоя "Окружность":
+
+<table data-header-hidden><thead><tr><th width="218">Имя</th><th width="308">Значение</th><th>Тип</th></tr></thead><tbody><tr><td><img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_0yZ1YyARITCvtIGYdm7hlY5XT0zR0oWWMLhq3amQkcAlrWsMLd8zbA4Ess3-2lzN3wHe51Uo3y0DesOW80gHNE8uOchJBOUzMappTqPUqJo0tfSYiOpk_wVhojfxNV9Bn47ZW2EkzylcZ8QHgrC77LY_8d42e329a7f7.png')} alt="Type_real_icon.png" data-size="line" /> Параметр глубины</td><td>0.000000</td><td>реальный</td></tr><tr><td><img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_0yZ1YyARITCvtIGYdm7hlY5XT0zR0oWWMLhq3amQkcAlrWsMLd8zbA4Ess3-2lzN3wHe51Uo3y0DesOW80gHNE8uOchJBOUzMappTqPUqJo0tfSYiOpk_wVhojfxNV9Bn47ZW2EkzylcZ8QHgrC77LY_8d42e329a7f7.png')} alt="Type_real_icon.png" data-size="line" /> Непрозрачность</td><td>1.000000</td><td>реальный</td></tr><tr><td><img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_2iTUGrJsa6CFF2Tk5-wI-jGxZ6MGpJ1sOK1jHmLCHXYjHHqnUEHnmCnIikeLBPNMXYv9E9Trr5P_dBhVkwfng-zqjApzeEq3RD8kgJyvzw13nhcGIIwyBrlGyHTnk0Q45X6MEjtNOuDtjU5aeJbQ628_3ccf0c146f47.png')} alt="Type_integer_icon.png" data-size="line" /> Метод смешивания</td><td>Совмещение</td><td>целое число</td></tr><tr><td><img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_7hQn75gCset-34lVEkhSfV-Eurxcm_2la_N1dqhBeQUTq2lKz0zB9iiXshTxvMy-0cuxdAiIhZmYb1346pYbM_j_yE-NQwLn0avYNoYekzR-04E7c2ps0z9rQyb3zWENdG8KZq9DCjXsWhUo3Pt61zU_a922f00e27f5.png')} alt="Type_color_icon.png" data-size="line" /> Цвет</td><td><img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_AWBcBcLxO0HgHBSLcC5Xc_WO0zKrTHYyjvrvb0FXppCYMS0pBTQxZ4yEULgiwrVvrWhixQ_5pzsAxBrrYRyn3mQffen0Ab8OB6yPHjNe-uzgeeJKw2O0CKjISQIXT4uszumSqpA0_Fcf53bZIF6Xpu8_08ff94320077.png')} alt="p_color_green.png" /></td><td>Цвет</td></tr><tr><td><img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_0yZ1YyARITCvtIGYdm7hlY5XT0zR0oWWMLhq3amQkcAlrWsMLd8zbA4Ess3-2lzN3wHe51Uo3y0DesOW80gHNE8uOchJBOUzMappTqPUqJo0tfSYiOpk_wVhojfxNV9Bn47ZW2EkzylcZ8QHgrC77LY_8d42e329a7f7.png')} alt="Type_real_icon.png" data-size="line" />Радиус</td><td>90,000000px</td><td>Цвет</td></tr><tr><td><img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_0yZ1YyARITCvtIGYdm7hlY5XT0zR0oWWMLhq3amQkcAlrWsMLd8zbA4Ess3-2lzN3wHe51Uo3y0DesOW80gHNE8uOchJBOUzMappTqPUqJo0tfSYiOpk_wVhojfxNV9Bn47ZW2EkzylcZ8QHgrC77LY_8d42e329a7f7.png')} alt="Type_real_icon.png" data-size="line" />Растушёвка</td><td>0,000000px</td><td>вектор</td></tr><tr><td><img src={useBaseUrl('/assets/lh7-us.googleusercontent.com_OViCi9s7s1GZZji4l9iFRRn3usvltO8DjDlihLP4ansNNE1DgQQbW0isTFrYPdFGndjaob3uGiUBVH2nEJb9JdjfB_DQQa1uTS3XA-XcX4uCCFYjdYdb5NWBx0bIX_hgYLxWywyIeG-GiZE7itOXvL4_ed0fa91ae5fc.png')} alt="Type_vector_icon.png" data-size="line" /> Центр</td><td>0,000000px, 0,000000px</td><td>вектор</td></tr><tr><td><img src={useBaseUrl('/img/gitbook/type_bool_icon.png')} alt="Type_vector_icon.png" data-size="line" />Инвертировать</td><td></td><td></td></tr></tbody></table>
